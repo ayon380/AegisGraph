@@ -1,0 +1,99 @@
+# ==========================================
+# 1. Global / System Files
+# ==========================================
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env*.local
+
+# ==========================================
+# 2. Next.js / Node Subfolder
+# ==========================================
+# Dependencies
+**/node_modules/
+**/.pnpm-store/
+
+# Next.js build and production outputs
+**/.next/
+**/out/
+**/build/
+
+# Testing and coverage
+**/coverage/
+**/.nyc_output/
+
+# Next.js telemetry and local configs
+**/.next-env.d.ts
+**/.expo/
+
+# ==========================================
+# 3. Python Subfolder
+# ==========================================
+# Byte-compiled / optimized / DLL files
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+
+# Virtual Environments
+**/.venv/
+**/venv/
+**/ENV/
+**/env/
+
+# Pipenv and Poetry environments
+**/.venv
+**/.pipenv
+**/.poetry
+
+# Jupyter Notebook checkpoints
+**/.ipynb_checkpoints/
+
+# Python testing and linting
+**/.pytest_cache/
+**/.tox/
+**/.coverage
+**/htmlcov/
+**/.mypy_cache/
+**/.ruff_cache/
+
+# ==========================================
+# 4. C++ Subfolder
+# ==========================================
+# Compiled Object files
+**/*.o
+**/*.obj
+**/*.gch
+**/*.pch
+
+# Compiled Dynamic Libraries
+**/*.so
+**/*.dylib
+**/*.dll
+
+# Compiled Executables
+**/*.exe
+**/*.out
+**/*.app
+
+# IDEs and Build Systems (CMake, VS Code, Visual Studio)
+**/.cmake/
+**/CMakeCache.txt
+**/CMakeFiles/
+**/CMakeSettings.json
+**/build/
+**/CMakeUserPresets.json
+**/.vs/
+**/*.suo
+**/*.user
+**/*.sln
+**/*.vcxproj
+**/*.filters
+
+# ==========================================
+# 5. IDE Specifics
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
